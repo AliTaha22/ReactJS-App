@@ -1,4 +1,5 @@
-import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 //a component
 function App() {
@@ -7,9 +8,10 @@ function App() {
 
   return (
     <div className="App">
-     <div className="content">
-      <h1> { title } </h1>
-     </div>
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
