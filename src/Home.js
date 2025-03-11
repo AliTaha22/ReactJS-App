@@ -11,7 +11,7 @@ const Home = () => {
 
     return ( 
         <div className="home">
-            <BlogsList sendBlogs = {blogs}/>
+            <BlogsList blogs = {blogs} blogTitle = "Welcome to my Blog"/>
         </div>
      );
 }
