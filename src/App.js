@@ -2,7 +2,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 
 //a component
-function App() {
+export default function App() {
 
   const title = "Welcome to my Blog"
 
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+// export default App;
